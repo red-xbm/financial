@@ -624,7 +624,18 @@ nav ul img:nth-child(1) {
     font-size: 16px;
     color: #073C3F;
 }
-
+.pp {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font: 13px;
+    padding: 10px 0;
+}
+.pp a {
+    text-decoration: none;
+    border-bottom: blueviolet 1px solid;
+    color: blueviolet;
+}
 /* phone */
 @media screen and (max-width: 768px) {
     nav img:nth-child(1) {
